@@ -25,8 +25,8 @@ if "active_quiz" not in st.session_state:
     st.session_state.active_quiz = []
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
-if "submitted" not in st.session_state:
-    st.session_state.submitted = False
+if "answered_status" not in st.session_state:
+    st.session_state.answered_status = {}
 
 def load_chapter_json(idx):
     path = os.path.join(DATA_DIR, f"chapter_{idx:02d}.json")
@@ -50,17 +50,16 @@ def sample_progression(questions, target_n, allowed_types):
         indices.sort()
     return [filtered[i] for i in indices]
 
-def get_safe_checkpoint(q, is_submitted):
+def get_safe_checkpoint(q, is_answered):
     """
     防劇透處理：
-    如果尚未提交答案，檢查節點詞中是否含有該題答案字詞。
-    若有，自動替換為 '❓❓'；已提交後則完整顯示。
+    如果該題尚未作答，檢查節點詞中是否含有該題答案字詞。
+    若有，自動替換為 '❓❓'；該題作答後則完整顯示。
     """
     raw_checkpoint = q.get("plot_checkpoint", "")
-    if is_submitted:
+    if is_answered:
         return raw_checkpoint
 
-    # 提取選擇題答案內容（例如從 "B. 張家口" 提取出 "張家口"）
     answer_text = ""
     if q.get("type") == "multiple_choice" and "options" in q:
         ans_key = q.get("answer", "").strip()
@@ -71,7 +70,6 @@ def get_safe_checkpoint(q, is_submitted):
     elif q.get("type") == "fill_in_the_blank":
         answer_text = q.get("answer", "").strip()
 
-    # 如果答案長度 >= 2 且出現在節點標題中，進行遮蔽
     if len(answer_text) >= 2 and answer_text in raw_checkpoint:
         return raw_checkpoint.replace(answer_text, "❓❓")
     
@@ -107,46 +105,88 @@ if start_btn:
             qs = sample_progression(data.get("questions", []), target_count, allowed_types)
             st.session_state.active_quiz = qs
             st.session_state.user_answers = {}
-            st.session_state.submitted = False
+            st.session_state.answered_status = {}
             st.session_state.current_title = data.get("chapter_name", CHAPTER_LIST[ch_idx-1])
+            st.rerun()
 
-# 顯示題目
+# 顯示題目（逐題即時反饋模式）
 if st.session_state.active_quiz:
     st.subheader(f"📖 當前篇章：{st.session_state.current_title}")
-    st.caption(f"由題庫中依情節先後抽樣出 **{len(st.session_state.active_quiz)} 條** 推進題目：")
+    
+    total_q = len(st.session_state.active_quiz)
+    answered_count = sum(1 for is_ans in st.session_state.answered_status.values() if is_ans)
+    
+    # 計算即時分數
+    correct_count = 0
+    for i, q in enumerate(st.session_state.active_quiz, 1):
+        if st.session_state.answered_status.get(i, False):
+            user_val = st.session_state.user_answers.get(i, "").strip()
+            correct_val = q["answer"].strip()
+            if q["type"] == "multiple_choice":
+                if user_val.startswith(correct_val):
+                    correct_count += 1
+            else:
+                if user_val.lower() == correct_val.lower():
+                    correct_count += 1
+    
+    # 頂部進度提示列
+    st.progress(answered_count / total_q)
+    st.caption(f"作答進度：{answered_count} / {total_q} 題 ｜ 目前得分：{correct_count} 分")
+    st.write("---")
 
-    # 如果尚未提交，以表單形式呈現作答區
-    if not st.session_state.submitted:
-        with st.form("quiz_form"):
-            for i, q in enumerate(st.session_state.active_quiz, 1):
-                # 套用防劇透函數：遮蓋含有答案的詞彙
-                safe_cp = get_safe_checkpoint(q, is_submitted=False)
-                st.markdown(f"#### 📍 節點 {i}/{len(st.session_state.active_quiz)}：{safe_cp}")
-                st.write(f"**第 {i} 題：** {q['question']}")
+    for i, q in enumerate(st.session_state.active_quiz, 1):
+        is_answered = st.session_state.answered_status.get(i, False)
+        
+        # 未作答時對標題進行脫敏，作答後解除遮蔽
+        safe_cp = get_safe_checkpoint(q, is_answered=is_answered)
+        st.markdown(f"#### 📍 節點 {i}/{total_q}：{safe_cp}")
+        st.write(f"**第 {i} 題：** {q['question']}")
 
-                if q["type"] == "multiple_choice":
-                    opts = q["options"]
-                    cur = st.session_state.user_answers.get(i, None)
-                    ans = st.radio(f"選擇答案（第 {i} 題）", opts, key=f"mc_{i}", index=None if cur is None else opts.index(cur))
-                    if ans:
-                        st.session_state.user_answers[i] = ans
-                else:
-                    cur = st.session_state.user_answers.get(i, "")
-                    ans = st.text_input(f"請在空格填入答案（第 {i} 題）", value=cur, key=f"blank_{i}", placeholder="輸入詞語...")
-                    st.session_state.user_answers[i] = ans
-                st.write("---")
-
-            if st.form_submit_button("📝 提交批改", type="primary", use_container_width=True):
-                st.session_state.submitted = True
+        if q["type"] == "multiple_choice":
+            opts = q["options"]
+            cur_ans = st.session_state.user_answers.get(i, None)
+            
+            # 使用 radio 讓用戶點選，一選中即記錄並鎖定批改
+            selected = st.radio(
+                f"選擇答案（第 {i} 題）",
+                opts,
+                key=f"mc_{i}",
+                index=None if cur_ans is None else opts.index(cur_ans),
+                disabled=is_answered
+            )
+            
+            # 只要用戶選了選項且尚未標記為已答，即刻觸發更新
+            if selected is not None and not is_answered:
+                st.session_state.user_answers[i] = selected
+                st.session_state.answered_status[i] = True
                 st.rerun()
 
-    # 批改與解讀（提交後顯示）
-    if st.session_state.submitted:
-        score = 0
-        total = len(st.session_state.active_quiz)
-        st.subheader("📊 練習結果與情節解析")
+        else:
+            # 填空題：提供獨立按鈕進行即時批改
+            c1, c2 = st.columns([4, 1])
+            with c1:
+                cur_text = st.session_state.user_answers.get(i, "")
+                input_text = st.text_input(
+                    f"請在空格填入答案（第 {i} 題）",
+                    value=cur_text,
+                    key=f"blank_{i}",
+                    placeholder="輸入詞語後點擊確認...",
+                    disabled=is_answered
+                )
+            with c2:
+                st.write("")
+                st.write("")
+                if not is_answered:
+                    if st.button("確認答案", key=f"btn_blank_{i}", use_container_width=True):
+                        if input_text.strip():
+                            st.session_state.user_answers[i] = input_text.strip()
+                            st.session_state.answered_status[i] = True
+                            st.rerun()
+                        else:
+                            st.warning("請先輸入答案！")
 
-        for i, q in enumerate(st.session_state.active_quiz, 1):
+        # 若該題已作答，立即展示即時批改反饋與解析
+        if is_answered:
             user_val = st.session_state.user_answers.get(i, "")
             correct_val = q["answer"].strip()
             is_correct = False
@@ -158,18 +198,20 @@ if st.session_state.active_quiz:
                 if user_val.strip().lower() == correct_val.lower():
                     is_correct = True
 
-            # 提交後展示完整原汁原味的 plot_checkpoint
             if is_correct:
-                score += 1
-                st.success(f"✅ 第 {i} 題【正確】— 📍 情節節點：{q['plot_checkpoint']}")
+                st.success(f"✅ 回答正確！")
             else:
-                st.error(f"❌ 第 {i} 題【錯誤】— 📍 情節節點：{q['plot_checkpoint']}")
-                st.write(f"- 你的回答：`{user_val if user_val else '未作答'}`")
+                st.error(f"❌ 回答錯誤！")
+                st.write(f"- 你的回答：`{user_val}`")
                 st.write(f"- 正確答案：**`{correct_val}`**")
 
-            with st.expander(f"🔍 查看第 {i} 題原著情節解析"):
+            with st.expander("🔍 查看本題情節深度解析", expanded=True):
+                st.markdown(f"**完整節點：** {q['plot_checkpoint']}")
                 st.write(q["explanation"])
 
-        st.metric("🎯 最終成績", f"{score} / {total} 分 ({int(score/total*100)}%)")
-        if score == total:
-            st.balloons()
+        st.write("---")
+
+    # 全部題目完成後的總結
+    if answered_count == total_q:
+        st.balloons()
+        st.success(f"🎉 恭喜完成本章節導讀練習！最終成績：{correct_count} / {total_q} 分 ({int(correct_count/total_q*100)}%)")
