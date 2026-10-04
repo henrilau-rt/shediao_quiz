@@ -1,0 +1,231 @@
+{
+  "chapter_id": 18,
+  "chapter_name": "第十八回 三道試題",
+  "questions": [
+    {
+      "step_order": 1,
+      "plot_checkpoint": "三大宗師齊聚桃花島試劍亭",
+      "type": "multiple_choice",
+      "question": "第十八回開端，黃藥師、歐陽鋒與洪七公三大武林宗師齊聚桃花島何處，正式開啟郭靖與歐陽克的求親比試？",
+      "options": ["A. 積翠亭", "B. 試劍亭", "C. 撫琴台", "D. 清音閣"],
+      "answer": "B",
+      "explanation": "三大宗師移步試劍亭，桃花島招婿的三場考驗正式拉開序幕。"
+    },
+    {
+      "step_order": 2,
+      "plot_checkpoint": "黃藥師宣布三試定親之規",
+      "type": "fill_in_the_blank",
+      "question": "黃藥師當眾立下規矩，求親比試共設三道試題，凡三局中獲勝______局者，即可娶黃蓉為妻。",
+      "options": [],
+      "answer": "兩",
+      "explanation": "黃藥師定下三局兩勝之約，勝出兩場者即為桃花島快婿。"
+    },
+    {
+      "step_order": 3,
+      "plot_checkpoint": "第一試武藝身法考核",
+      "type": "multiple_choice",
+      "question": "第一道試題比試武功身法，郭靖與歐陽克被要求立於何種特異環境下拆招比試？",
+      "options": ["A. 太湖水面的獨木舟上", "B. 桃樹頂端搖曳的細弱枝梢上", "C. 懸崖峭壁間的鐵索之上", "D. 鋪滿毒蛇的梅花樁上"],
+      "answer": "B",
+      "explanation": "第一試考驗輕功與下盤功夫，兩人各站一根柔軟桃樹枝梢拆招，墜地或折枝者負。"
+    },
+    {
+      "step_order": 4,
+      "plot_checkpoint": "郭靖使出雙手互搏抗敵",
+      "type": "fill_in_the_blank",
+      "question": "在樹梢拆招中，郭靖展現了老頑童周伯通親傳的______之術，一手出拳一手出掌，令歐陽克應接不暇。",
+      "options": [],
+      "answer": "雙手互搏",
+      "explanation": "郭靖分心二用，左右手分使不同精妙武藝，如同兩人合擊。"
+    },
+    {
+      "step_order": 5,
+      "plot_checkpoint": "歐陽克折枝落敗首局告負",
+      "type": "multiple_choice",
+      "question": "第一場比試的最終結果為何？",
+      "options": ["A. 歐陽克重傷郭靖取勝", "B. 郭靖力求沉穩守住枝頭，歐陽克腳下樹枝折斷墜地落敗", "C. 兩人同時落樹判作平手", "D. 洪七公出手干涉宣佈無效"],
+      "answer": "B",
+      "explanation": "郭靖身法沉穩並以互搏術壓制對手，歐陽克立足不穩踩斷樹枝落敗，郭靖先拔頭籌。"
+    },
+    {
+      "step_order": 6,
+      "plot_checkpoint": "第二試音律考題登場",
+      "type": "fill_in_the_blank",
+      "question": "第二道試題考驗音律，黃藥師手持玉簫吹奏成名絕技《______》，命二人按節奏擊竹相和。",
+      "options": [],
+      "answer": "碧海潮生曲",
+      "explanation": "第二場比試音律節奏，黃藥師親自吹奏內力充沛的《碧海潮生曲》。"
+    },
+    {
+      "step_order": 7,
+      "plot_checkpoint": "擊節器具與規則設定",
+      "type": "multiple_choice",
+      "question": "第二試中，黃藥師發給郭靖與歐陽克何種物件用以拍擊節奏？",
+      "options": ["A. 青銅編鐘", "B. 一對青竹片", "C. 鐵撥片與皮鼓", "D. 檀木快板"],
+      "answer": "B",
+      "explanation": "黃藥師折取竹枝製成竹片，令二人在簫聲中擊節相和，考驗其節奏感與定力。"
+    },
+    {
+      "step_order": 8,
+      "plot_checkpoint": "歐陽鋒暗助姪兒作弊",
+      "type": "fill_in_the_blank",
+      "question": "西毒歐陽鋒精通音律，盤膝坐於歐陽克身後，暗中以掌力拍擊其______，引導其擊出精準節拍。",
+      "options": [],
+      "answer": "後背",
+      "explanation": "歐陽鋒以渾厚內勁隔衣相度，暗中替歐陽克把握簫聲節奏走勢。"
+    },
+    {
+      "step_order": 9,
+      "plot_checkpoint": "郭靖不通音律陷入險境",
+      "type": "multiple_choice",
+      "question": "郭靖自幼長於大漠不通絲竹之樂，面對變幻莫測的簫聲，他最初的反應如何？",
+      "options": ["A. 憑天賦敲擊得天衣無縫", "B. 完全聽不出曲調節奏，心神更受簫聲魔音牽引險些真氣逆流", "C. 當場棄權認輸", "D. 吹口哨與簫聲對抗"],
+      "answer": "B",
+      "explanation": "郭靖對音律一竅不通，且簫曲內勁極強，郭靖被魔音震得心神激盪、難以為繼。"
+    },
+    {
+      "step_order": 10,
+      "plot_checkpoint": "洪七公口吐雞骨相助指點",
+      "type": "fill_in_the_blank",
+      "question": "危急關頭，坐在亭旁的洪七公佯裝吃雞，暗中將口中嚼碎的______吐向郭靖手腕，提示其拍擊時機。",
+      "options": [],
+      "answer": "雞骨",
+      "explanation": "洪七公見歐陽鋒作弊，亦以吐雞骨的巧勁暗助愛徒掌握擊節間隙。"
+    },
+    {
+      "step_order": 11,
+      "plot_checkpoint": "歐陽克音律試奪魁",
+      "type": "multiple_choice",
+      "question": "第二試結束後，黃藥師如何判定勝負歸屬？",
+      "options": ["A. 判郭靖獲勝", "B. 歐陽克拍節絲絲入扣、合乎宮商角徵羽，判定歐陽克獲勝", "C. 判定二人皆作弊取消成績", "D. 宣佈第二局作廢重試"],
+      "answer": "B",
+      "explanation": "歐陽克得歐陽鋒相助，擊節嚴絲合縫，黃藥師判定歐陽克勝出，雙方戰成一比一平手。"
+    },
+    {
+      "step_order": 12,
+      "plot_checkpoint": "一比一平局下決戰第三試",
+      "type": "fill_in_the_blank",
+      "question": "兩場戰平後，雙方勝負完全取決於黃藥師臨時定下的第三道試題——比試______奇書經文的能力。",
+      "options": [],
+      "answer": "背誦",
+      "explanation": "黃藥師第三道試題考驗文采記憶，命二人當場閱讀並背誦罕見古卷。"
+    },
+    {
+      "step_order": 13,
+      "plot_checkpoint": "黃藥師取出馮蘅遺墨真經",
+      "type": "multiple_choice",
+      "question": "第三試中黃藥師取出的考卷古冊，實為當年亡妻馮蘅耗盡心血默寫的何部武學奇書殘卷？",
+      "options": ["A. 《武穆遺書》", "B. 《九陰真經》下卷", "C. 《易筋經》", "D. 《太極拳經》"],
+      "answer": "B",
+      "explanation": "黃藥師取出妻子當年手錄的《九陰真經》殘卷，自認世間僅此一部絕無外傳。"
+    },
+    {
+      "step_order": 14,
+      "plot_checkpoint": "限時通讀博聞強記之爭",
+      "type": "fill_in_the_blank",
+      "question": "黃藥師限二人於一炷香的時間內翻閱全卷，隨後合上冊頁，以誰能______出最多字句者為勝。",
+      "options": [],
+      "answer": "背誦",
+      "explanation": "考驗臨場記憶力，黃藥師本意以此偏袒文采過人的歐陽克。"
+    },
+    {
+      "step_order": 15,
+      "plot_checkpoint": "歐陽克志在必得埋頭強記",
+      "type": "multiple_choice",
+      "question": "歐陽克拿到殘卷後展現出怎樣的反應？",
+      "options": ["A. 當場認出這是《九陰真經》下卷並大驚失色", "B. 自恃聰慧過人，抓緊一炷香時間極力硬背深奧文句", "C. 拒絕翻閱古卷", "D. 偷偷將經文抄在衣袖內"],
+      "answer": "B",
+      "explanation": "歐陽克自負博聞強記，迅速展開書卷逐字逐句死記硬背。"
+    },
+    {
+      "step_order": 16,
+      "plot_checkpoint": "郭靖展卷驚覺字句爛熟於心",
+      "type": "fill_in_the_blank",
+      "question": "郭靖接過古冊展開一看，赫然發現書中文字正是前些日子周伯通在石洞中逼他背得滾瓜爛熟的「______故事」。",
+      "options": [],
+      "answer": "童謠",
+      "explanation": "周伯通曾騙郭靖將真經當作好玩古怪的童謠背誦，郭靖早已能一字不差倒背如流。"
+    },
+    {
+      "step_order": 17,
+      "plot_checkpoint": "郭靖合卷朗聲通篇背誦",
+      "type": "multiple_choice",
+      "question": "一炷香時間尚未過半，郭靖的舉動令在場眾人震驚不已，他做了什麼？",
+      "options": ["A. 將經書撕碎投入火中", "B. 直接合上書卷，朗聲一字不漏、毫無停滯地通篇背誦出來", "C. 跪地請求延長時間", "D. 承認自己目不識丁交出白卷"],
+      "answer": "B",
+      "explanation": "郭靖無需臨場硬背，當場朗朗上口將整卷經文從頭至尾背出，驚呆眾人。"
+    },
+    {
+      "step_order": 18,
+      "plot_checkpoint": "黃藥師疑心亡妻顯靈護婿",
+      "type": "fill_in_the_blank",
+      "question": "黃藥師聽郭靖背得絲毫不差，神情大變如遭雷擊，心中駭然疑心是亡妻______泉下顯靈，冥冥中指引郭靖成婿。",
+      "options": [],
+      "answer": "馮蘅",
+      "explanation": "此卷世上無第二人讀過，黃藥師狂傲一生，此時亦以為亡妻陰魂托夢暗助郭靖。"
+    },
+    {
+      "step_order": 19,
+      "plot_checkpoint": "周伯通破陣而出戳破玄機",
+      "type": "multiple_choice",
+      "question": "正當黃藥師驚疑不定之際，何人笑嘻嘻闖入試劍亭，當眾揭穿了郭靖早已通讀真經的真相？",
+      "options": ["A. 柯鎮惡", "B. 陸乘風", "C. 老頑童周伯通", "D. 啞巴僕役"],
+      "answer": "C",
+      "explanation": "周伯通脫困趕來，得意忘形地宣稱是自己騙郭靖背下了整部《九陰真經》。"
+    },
+    {
+      "step_order": 20,
+      "plot_checkpoint": "老頑童自曝違背師門誓言",
+      "type": "fill_in_the_blank",
+      "question": "周伯通話一出口猛然醒悟，當場悔恨大叫，痛哭自己無意間違背了重陽祖師立下的「全真弟子不得修習______」之嚴苛門規。",
+      "options": [],
+      "answer": "真經",
+      "explanation": "周伯通驚覺自己雖未自練，卻將全真弟子郭靖教成了真經傳人，破了師兄遺訓，惶恐自責。"
+    },
+    {
+      "step_order": 21,
+      "plot_checkpoint": "黃藥師落筆定局認輸招婿",
+      "type": "multiple_choice",
+      "question": "第三試勝負已分，在洪七公與黃蓉的極力敦促下，黃藥師最終做出了何種裁決？",
+      "options": ["A. 宣佈比試作廢，驅逐郭靖", "B. 遵守三局兩勝承諾，當眾宣佈郭靖勝出，准允其求娶黃蓉", "C. 堅持將黃蓉嫁給歐陽克", "D. 命二人拔劍生死決鬥"],
+      "answer": "B",
+      "explanation": "黃藥師縱然心有不甘，但宗師身份一諾千金，只得宣佈郭靖兩勝一負獲勝。"
+    },
+    {
+      "step_order": 22,
+      "plot_checkpoint": "歐陽鋒叔姪求親失敗含恨",
+      "type": "fill_in_the_blank",
+      "question": "求親落敗的歐陽鋒臉色鐵青，收起蛇杖，攜負傷落魄的歐陽克辭別黃藥師，登上海邊大船準備西歸______山莊。",
+      "options": [],
+      "answer": "白駝",
+      "explanation": "歐陽鋒叔姪顏面掃地，懷恨告退，登上白駝山座船離開桃花島。"
+    },
+    {
+      "step_order": 23,
+      "plot_checkpoint": "老頑童跳上西毒座船同行",
+      "type": "multiple_choice",
+      "question": "老頑童周伯通不願繼續困於海島，在白駝山船隻離岸時採取了何種古怪行徑？",
+      "options": ["A. 游水橫渡東海返回中原", "B. 縱身躍上歐陽鋒的座船，聲稱要隨船同行出海嬉鬧", "C. 奪取桃花島啞僕的小舟", "D. 留在石洞中閉關修煉"],
+      "answer": "B",
+      "explanation": "周伯通天性好玩無所畏懼，飛身跳上歐陽鋒的大船同航出海。"
+    },
+    {
+      "step_order": 24,
+      "plot_checkpoint": "洪七公郭靖登上花船返航",
+      "type": "fill_in_the_blank",
+      "question": "洪七公帶領郭靖辭別依依不捨的黃蓉，登上黃藥師安排的一艘雕樑畫棟、極其華麗的______出海啟程返回大陸。",
+      "options": [],
+      "answer": "花船",
+      "explanation": "黃藥師備妥豪華花船送客，洪七公與郭靖滿心歡喜登船啟航。"
+    },
+    {
+      "step_order": 25,
+      "plot_checkpoint": "花船暗藏殺機洪濤前奏",
+      "type": "multiple_choice",
+      "question": "本回尾聲處，洪七公與郭靖所乘的華麗花船駛入波濤洶湧的大洋深處，船底隱伏著何種致命危機，為第十九回埋下伏筆？",
+      "options": ["A. 船底已被水手鑿穿暗孔，此船乃黃藥師原為自己殉葬所造的花梨木殉葬漏船", "B. 船艙中藏有成百上千條西域毒蛇", "C. 遭遇金國水師重炮轟擊", "D. 遭遇太湖水寇圍攻"],
+      "answer": "A",
+      "explanation": "這艘船是黃藥師為自己日後殉妻造的生漆漏船，入海深處膠灰便會融化沉沒，由此引爆第十九回【洪濤群鯊】的滅頂海難。"
+    }
+  ]
+}
