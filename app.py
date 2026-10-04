@@ -2,6 +2,16 @@ import streamlit as st
 import json
 import os
 
+# 答題前：
+st.caption(f"📌 進度：第 {q['step_order']} / 25 節點")
+
+# ... 顯示題目與選項 ...
+
+# 用戶點擊提交 / 答題後：
+if answered:
+    st.info(f"📖 **解鎖情節節點**：{q['plot_checkpoint']}")
+    st.write(f"💡 **解析**：{q['explanation']}")
+
 st.set_page_config(page_title="《射鵰英雄傳》離線導讀互動練習", page_icon="📖", layout="wide")
 
 DATA_DIR = "data"
