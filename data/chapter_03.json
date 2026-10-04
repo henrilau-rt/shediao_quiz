@@ -1,0 +1,231 @@
+{
+  "chapter_id": 3,
+  "chapter_name": "第三回 大漠風沙",
+  "questions": [
+    {
+      "step_order": 1,
+      "plot_checkpoint": "李萍大漠產子後艱辛度日",
+      "type": "multiple_choice",
+      "question": "李萍在蒙古大漠風雪中產下郭靖後，起初依靠什麼方式在荒原上維持母子生計？",
+      "options": ["A. 在蒙古部落充當鐵匠", "B. 牧羊放馬與替牧民縫補衣物", "C. 經營邊境馬幫茶葉商旅", "D. 依附中原駐軍開荒種田"],
+      "answer": "B",
+      "explanation": "李萍母子獲善良的蒙古牧民收留，李萍自食其力，靠著替人牧羊放馬、紡毛織氈拉扯幼小的郭靖長大。"
+    },
+    {
+      "step_order": 2,
+      "plot_checkpoint": "江南七怪六年大漠苦尋",
+      "type": "fill_in_the_blank",
+      "question": "江南七怪為踐行嘉興之約，在大漠黃沙與嚴寒酷暑間奔波尋覓郭嘯天後嗣，前後足足歷經了______載光陰仍無音訊。",
+      "options": [],
+      "answer": "六",
+      "explanation": "江南七怪風餐露宿、歷經艱辛，在大漠荒野苦苦搜尋了整整六年。"
+    },
+    {
+      "step_order": 3,
+      "plot_checkpoint": "郭靖幼年資質質樸魯鈍",
+      "type": "multiple_choice",
+      "question": "郭靖幼年時期的心智與言語發育有何顯著特點？",
+      "options": ["A. 自幼聰穎絕頂，三歲即能吟詩背誦", "B. 說話極遲，四歲方始開口，性格忠厚魯鈍", "C. 性格狡黠多變，善於察言觀色", "D. 天生神童，過目不忘"],
+      "answer": "B",
+      "explanation": "郭靖直到四歲才會說話，天資顯得遲鈍木訥，但秉性純良剛毅。"
+    },
+    {
+      "step_order": 4,
+      "plot_checkpoint": "草原兒童鬥毆郭靖護友",
+      "type": "fill_in_the_blank",
+      "question": "六歲時的郭靖在草原上看見幾個孩童毆打鐵木真的幼子______，郭靖不顧身小力弱奮勇上前護衛。",
+      "options": [],
+      "answer": "拖雷",
+      "explanation": "鐵木真幼子拖雷被部落其他較大的孩童欺凌，郭靖見義勇為上前護持，兩人自此結為莫逆。"
+    },
+    {
+      "step_order": 5,
+      "plot_checkpoint": "哲別中箭負傷倉皇奔逃",
+      "type": "multiple_choice",
+      "question": "一日午後，一名身背巨弓、黑袍染血的神箭手騎著駿馬逃至李萍母子的蒙古包前，這名神箭手是誰？",
+      "options": ["A. 博爾術", "B. 木華黎", "C. 哲別", "D. 者勒蔑"],
+      "answer": "C",
+      "explanation": "哲別（原泰赤烏部勇士只兒豁阿歹）因射傷鐵木真愛馬遭大軍追捕，逃至郭家帳篷。"
+    },
+    {
+      "step_order": 6,
+      "plot_checkpoint": "郭靖藏匿哲別於柴草堆",
+      "type": "fill_in_the_blank",
+      "question": "年幼的郭靖見哲別箭傷沉重且神情英雄，便依其指示將他藏在自家帳篷外的______堆之中。",
+      "options": [],
+      "answer": "乾草",
+      "explanation": "郭靖年幼卻極有義氣，迅速取來乾草堆覆蓋掩護受重傷的哲別。"
+    },
+    {
+      "step_order": 7,
+      "plot_checkpoint": "鐵木真長子朮赤率眾搜捕",
+      "type": "multiple_choice",
+      "question": "率領騎兵追蹤而至並盤問郭靖的神箭手追兵將領是誰？",
+      "options": ["A. 朮赤", "B. 窩闊台", "C. 察合台", "D. 札木合"],
+      "answer": "A",
+      "explanation": "鐵木真長子朮赤率領一隊驍勇騎兵循著血跡追至此處，厲聲喝問郭靖犯人下落。"
+    },
+    {
+      "step_order": 8,
+      "plot_checkpoint": "金金相誘與鐵鞭毒打",
+      "type": "fill_in_the_blank",
+      "question": "追兵將領先以黃金相誘，見郭靖不為所動，便惱羞成怒掄起皮鞭在郭靖身上抽出了道道______，郭靖卻咬牙堅不吐實。",
+      "options": [],
+      "answer": "血痕",
+      "explanation": "朮赤威逼利誘並用馬鞭皮開肉綻地抽打郭靖，郭靖痛得涕淚俱下卻堅決不吐露半句哲別行蹤。"
+    },
+    {
+      "step_order": 9,
+      "plot_checkpoint": "哲別現身突圍擒獲人質",
+      "type": "multiple_choice",
+      "question": "躲藏的哲別不忍幼童代己受死，暴起破草而出，他採取的行動是什麼？",
+      "options": ["A. 舉手投降跪求饒命", "B. 挽強弓射斃多名敵兵，並生擒追兵長官作為人質", "C. 奪馬隻身遁入雪原", "D. 自刎以謝天地"],
+      "answer": "B",
+      "explanation": "哲別神勇非凡，長嘯躍出連環射翻數名騎兵，反客為主將領軍者制伏。"
+    },
+    {
+      "step_order": 10,
+      "plot_checkpoint": "鐵木真大軍親臨圍捕",
+      "type": "fill_in_the_blank",
+      "question": "雙方對峙不下之際，蒙古乞顏部首領______親自率領鐵騎大隊趕至現場。",
+      "options": [],
+      "answer": "鐵木真",
+      "explanation": "一代天驕鐵木真（後成吉思汗）率領親兵趕到，目睹了哲別的神射與郭靖的倔強風骨。"
+    },
+    {
+      "step_order": 11,
+      "plot_checkpoint": "神箭手彎弓對決豪情",
+      "type": "multiple_choice",
+      "question": "面對大軍合圍，哲別向鐵木真提出何種正大光明的比試要求？",
+      "options": ["A. 比試徒手摔跤定生死", "B. 各退數十步比試彎弓對射，死而無怨", "C. 比試賽馬馳騁十里", "D. 獻出名刀以求免死"],
+      "answer": "B",
+      "explanation": "哲別願與鐵木真麾下的頂尖神射手一箭定生死，盡顯草原勇士視死如歸的豪情。"
+    },
+    {
+      "step_order": 12,
+      "plot_checkpoint": "博爾術對射甘拜下風",
+      "type": "fill_in_the_blank",
+      "question": "鐵木真愛將______出陣與哲別對射，哲別箭術出神入化，一箭精準射斷其來箭矢羽，令眾人無不折服。",
+      "options": [],
+      "answer": "博爾術",
+      "explanation": "哲別箭法如神，射落博爾術之箭卻不傷其性命，展現高超神技。"
+    },
+    {
+      "step_order": 13,
+      "plot_checkpoint": "鐵木真收納哲別為萬夫長",
+      "type": "multiple_choice",
+      "question": "鐵木真敬重哲別的神勇與磊落，做出什麼決定？",
+      "options": ["A. 廢其雙目驅逐出境", "B. 赦免射殺愛馬之罪，收為貼身親將，賜名「哲別」", "C. 命其充當牧馬苦役", "D. 斬首以立軍威"],
+      "answer": "B",
+      "explanation": "鐵木真胸襟如海，賜其「哲別」（意為神箭手）之名，任其為愛將，哲別亦誓死效忠。"
+    },
+    {
+      "step_order": 14,
+      "plot_checkpoint": "贈金鐲郭靖堅拒不取",
+      "type": "fill_in_the_blank",
+      "question": "哲別感激郭靖捨命相護，將戰利品黃金手鐲贈與郭靖，郭靖依照母親李萍教誨，以「助人非圖回報」為由堅決______。",
+      "options": [],
+      "answer": "推辭",
+      "explanation": "郭靖記取母訓，不貪外財，分文不取，鐵木真與哲別皆大讚其為鐵骨錚錚的好男兒。"
+    },
+    {
+      "step_order": 15,
+      "plot_checkpoint": "鐵木真收納郭靖一家入營",
+      "type": "multiple_choice",
+      "question": "鐵木真讚許郭靖小小年紀極有骨氣，對李萍母子做出何種安置？",
+      "options": ["A. 賜予百金令其返回江南南宋", "B. 遷入本部軍營受到庇護，郭靖與拖雷結為幼年伴侶", "C. 令其負責看管戰俘營房", "D. 遣送回大金中都"],
+      "answer": "B",
+      "explanation": "鐵木真厚待李萍母子，將其安置於自家軍營斡耳朵附近，郭靖與拖雷感情日益深厚。"
+    },
+    {
+      "step_order": 16,
+      "plot_checkpoint": "金國冊封使團抵達草原",
+      "type": "fill_in_the_blank",
+      "question": "大金國為籠絡並挑撥蒙古各部，派出三皇子完顏洪熙與六皇子______出使塞北，舉行封賞大典。",
+      "options": [],
+      "answer": "完顏洪烈",
+      "explanation": "完顏洪烈隨金國使團前來塞外分化蒙古部落，李萍聞知仇人名字，仇恨銘心。"
+    },
+    {
+      "step_order": 17,
+      "plot_checkpoint": "完顏洪熙金錢擲地辱牧民",
+      "type": "multiple_choice",
+      "question": "金國三皇子完顏洪熙在檢閱草原各部時，在馬上做出了何種侮辱蒙古百姓與孩童的行徑？",
+      "options": ["A. 縱馬踩踏牧民帳篷", "B. 將金銀錢幣隨手拋灑於泥塵中，狂笑觀看眾人爭搶踐踏", "C. 當眾強奪牧民獵犬", "D. 命弓弩手射殺牛羊"],
+      "answer": "B",
+      "explanation": "完顏洪熙驕狂無禮，擲銅錢金銀讓貧苦牧民在泥濘中跪爬搶奪，藉此踐踏草原尊嚴。"
+    },
+    {
+      "step_order": 18,
+      "plot_checkpoint": "郭靖怒視金國皇子不拾遺金",
+      "type": "fill_in_the_blank",
+      "question": "在哄搶銅錢的人群中，唯有郭靖傲然而立、怒目而視，金幣落於腳邊分毫不取，惹得完顏洪熙大為詫異與______。",
+      "options": [],
+      "answer": "惱怒",
+      "explanation": "幼年郭靖孤立於地，眼神清澈剛正，毫不理會地上的金幣，完顏洪熙甚感意外。"
+    },
+    {
+      "step_order": 19,
+      "plot_checkpoint": "江南七怪人群中偶遇郭靖",
+      "type": "multiple_choice",
+      "question": "遠在觀禮台外的江南七怪，因何種機緣在千百蒙古牧民中鎖定並懷疑郭靖的漢人身份？",
+      "options": ["A. 聽見李萍用江南臨安鄉音呼喚郭靖姓名", "B. 郭靖腰間佩帶著刻有「郭靖」名字的信物匕首", "C. 郭靖使出全真教金雁功被柯鎮惡聽出", "D. 丘處機留下的暗號紙條在郭靖包袱中被發現"],
+      "answer": "A",
+      "explanation": "李萍在人群中急促用熟悉的臨安鄉音呼喚「靖兒快回」，令尋訪六年的江南七怪心頭狂震。"
+    },
+    {
+      "step_order": 20,
+      "plot_checkpoint": "朱聰試探匕首查驗身份",
+      "type": "fill_in_the_blank",
+      "question": "妙手書生朱聰擦肩走過郭靖身旁施展空空妙手，從郭靖懷中摸出了丘處機當年所贈、柄上刻有「______」二字的精鋼匕首。",
+      "options": [],
+      "answer": "楊康",
+      "explanation": "郭靖身上佩戴的正是當年兩家交換、丘處機刻有「楊康」名字的信物匕首，七怪自此確認無疑！"
+    },
+    {
+      "step_order": 21,
+      "plot_checkpoint": "相約荒山夜半傳功",
+      "type": "multiple_choice",
+      "question": "江南七怪確認郭靖身份後，命他當夜子時孤身前往何處相會，準備開始傳授武藝？",
+      "options": ["A. 黑水河畔渡口", "B. 荒山頂上黑沼枯樹下", "C. 大漠孤峰怪石嶙峋的崖頂", "D. 鐵木真金帳正後方土坡"],
+      "answer": "C",
+      "explanation": "柯鎮惡令郭靖瞞過母親，於夜半獨自爬上一座荒無人煙、陡峭怪異的荒山崖頂接受考驗。"
+    },
+    {
+      "step_order": 22,
+      "plot_checkpoint": "郭靖孤身攀爬懸崖荒山",
+      "type": "fill_in_the_blank",
+      "question": "幼小的郭靖信守諾言，在淒厲寒風與黑夜中手足並用，歷盡艱辛奮力爬上了高聳險峻的______山頂。",
+      "options": [],
+      "answer": "荒山",
+      "explanation": "郭靖性格堅毅剛強，冒著摔下粉身碎骨的危險，一步一步爬上夜霧籠罩的荒山頂端。"
+    },
+    {
+      "step_order": 23,
+      "plot_checkpoint": "荒山骷髏骨堆驚魂現身",
+      "type": "multiple_choice",
+      "question": "郭靖爬上山頂後，在月光下首先驚恐地看見了什麼毛骨悚然的異象？",
+      "options": ["A. 三堆整整齊齊排列、頂門鑽有五個指孔的人頭白骨", "B. 數十匹被狼群啃食的死馬殘骸", "C. 金國密探密謀的營帳與火光", "D. 丘處機留下的血衣長劍"],
+      "answer": "A",
+      "explanation": "崖頂怪石堆旁整齊堆疊著數具頭頂嵌有五個血指洞的骷髏頭，正是黑風雙煞修練九陰白骨爪之遺物。"
+    },
+    {
+      "step_order": 24,
+      "plot_checkpoint": "江南七怪正式相認納徒",
+      "type": "fill_in_the_blank",
+      "question": "江南七怪見郭靖如約而至且意志頑強，在狂喜與悲欣交集中向他表明身份，郭靖當場跪拜叩首認七人為______。",
+      "options": [],
+      "answer": "師父",
+      "explanation": "江南七怪六年辛酸終得回報，收郭靖為徒，誓言在餘下的十二年中將生平武功傾囊相授。"
+    },
+    {
+      "step_order": 25,
+      "plot_checkpoint": "荒山隱伏殺機黑風雙煞將至",
+      "type": "multiple_choice",
+      "question": "本回結尾處，柯鎮惡觸摸到山頂人頭骨堆上的五個深指孔時，臉色驟變，驚覺武林中哪對恐怖仇敵竟也隱匿於此？",
+      "options": ["A. 藏邊五醜", "B. 黑風雙煞（陳玄風與梅超風）", "C. 黃河四鬼", "D. 湘西白額雕"],
+      "answer": "B",
+      "explanation": "柯鎮惡摸出這是桃花島叛徒「黑風雙煞」銅屍陳玄風與鐵屍梅超風以活人練爪所留下的骷髏骨，大戰一觸即發。"
+    }
+  ]
+}

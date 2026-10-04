@@ -1,0 +1,231 @@
+{
+  "chapter_id": 2,
+  "chapter_name": "第二回 江南七怪",
+  "questions": [
+    {
+      "step_order": 1,
+      "plot_checkpoint": "丘處機一路追蹤段天德蹤跡",
+      "type": "multiple_choice",
+      "question": "丘處機為替郭、楊兩家復仇，一路追查兇手官差段天德，最終追蹤到了江南哪座著名古城？",
+      "options": ["A. 嘉興府", "B. 臨安府", "C. 蘇州府", "D. 紹興府"],
+      "answer": "A",
+      "explanation": "丘處機追緝拐帶李萍北逃的段天德，追查數月輾轉來到浙江嘉興府。"
+    },
+    {
+      "step_order": 2,
+      "plot_checkpoint": "醉仙樓聚首之約背景",
+      "type": "fill_in_the_blank",
+      "question": "丘處機與當地武林人物約定於嘉興南湖邊名聞遐邇的______碰面，以此解決段天德的藏匿問題。",
+      "options": [],
+      "answer": "醉仙樓",
+      "explanation": "雙方相約於嘉興府南湖之畔的醉仙樓相會比武定奪。"
+    },
+    {
+      "step_order": 3,
+      "plot_checkpoint": "江南七怪名號與威望",
+      "type": "multiple_choice",
+      "question": "應邀出面居中調停並維護段天德伯父（法華寺焦木和尚）的江南武林俠士是何群體？",
+      "options": ["A. 全真七子", "B. 漁樵耕讀", "C. 江南七怪", "D. 太湖群雄"],
+      "answer": "C",
+      "explanation": "焦木和尚自覺受全真派壓制，遂出面延請義薄雲天的「江南七怪」前來調停主持公道。"
+    },
+    {
+      "step_order": 4,
+      "plot_checkpoint": "柯鎮惡盲眼鐵杖率先現身",
+      "type": "fill_in_the_blank",
+      "question": "江南七怪之首「飛天蝙蝠」______雙目失明，手持沉重鐵杖，暗器功夫極其精深。",
+      "options": [],
+      "answer": "柯鎮惡",
+      "explanation": "江南七怪以柯鎮惡為首，雙目雖盲但聽風辨形功夫出神入化，性格極為剛烈固執。"
+    },
+    {
+      "step_order": 5,
+      "plot_checkpoint": "朱聰妙手空空妙技",
+      "type": "multiple_choice",
+      "question": "七怪中排行第二的「妙手書生」朱聰，平素隨身攜帶並最擅長使用的兵刃與技藝是什麼？",
+      "options": ["A. 熟銅槳與點穴", "B. 破油紙扇與扒竊取物神技", "C. 軟鞭與金刀", "D. 算盤與毒菱"],
+      "answer": "B",
+      "explanation": "朱聰手搖破油紙扇，身懷出神入化的「分筋錯骨手」與神偷扒竊絕技。"
+    },
+    {
+      "step_order": 6,
+      "plot_checkpoint": "馬王神與南山樵子相繼登場",
+      "type": "fill_in_the_blank",
+      "question": "七怪中排行第三的「馬王神」韓寶駒擅長金頂大靴與軟鞭，排行第四的「南山樵子」南希仁則使一柄純鋼______。",
+      "options": [],
+      "answer": "扁擔",
+      "explanation": "南希仁性格沉穩寡言，膂力驚人，所用兵刃為一柄純鋼打造的沉重扁擔。"
+    },
+    {
+      "step_order": 7,
+      "plot_checkpoint": "其餘三怪之兵刃形貌",
+      "type": "multiple_choice",
+      "question": "下列關於江南七怪中張阿生、全金發與韓小瑩的兵刃與稱號對應，何者錯誤？",
+      "options": ["A. 張阿生——「笑彌陀」，善使屠牛刀", "B. 全金發——「鬧市隱俠」，使一桿大鐵秤", "C. 韓小瑩——「越女劍」，使越女劍法", "D. 張阿生——「鐵掌水上飄」，使雙鐵掌"],
+      "answer": "D",
+      "explanation": "張阿生外號「笑彌陀」，以屠牛刀與外門硬功見長；「鐵掌水上飄」乃裘千仞之名號。"
+    },
+    {
+      "step_order": 8,
+      "plot_checkpoint": "丘處機銅鼎盛酒登樓",
+      "type": "fill_in_the_blank",
+      "question": "丘處機赴會時，孤身手托一尊數百斤重的萬壽寺大______登樓，以此展示雄渾非凡的道家內功。",
+      "options": [],
+      "answer": "銅鼎",
+      "explanation": "丘處機托舉盛滿巨量美酒的大銅鼎登樓，神色自若，震懾樓中群雄。"
+    },
+    {
+      "step_order": 9,
+      "plot_checkpoint": "銅鼎傳酒較量內力",
+      "type": "multiple_choice",
+      "question": "在醉仙樓上，丘處機以銅鼎斟酒相敬，七怪輪番接飲，雙方主要藉此比試什麼？",
+      "options": ["A. 詩詞對聯", "B. 酒量大小與臂力內勁", "C. 毒藥耐受度", "D. 陣法變化"],
+      "answer": "B",
+      "explanation": "丘處機與七怪藉由銅鼎推拉拋擲、隔空吸酒或借力卸力，比拼深厚的內功與奇門外家功力。"
+    },
+    {
+      "step_order": 10,
+      "plot_checkpoint": "朱聰暗中妙手盜詩",
+      "type": "fill_in_the_blank",
+      "question": "妙手書生朱聰在迎上敬酒時，趁丘處機不備，神不知鬼不覺地從其懷中盜出了抄有詩句的______。",
+      "options": [],
+      "answer": "信箋",
+      "explanation": "朱聰施展妙手空空神技，神鬼不覺盜取了丘處機貼身藏放的詩箋，令丘處機暗自吃驚。"
+    },
+    {
+      "step_order": 11,
+      "plot_checkpoint": "誤會難解轉赴法華寺決鬥",
+      "type": "multiple_choice",
+      "question": "雙方互不相讓，言辭激化，丘處機堅信焦木窩藏段天德，遂將決戰地點改至何處？",
+      "options": ["A. 煙雨樓", "B. 法華寺", "C. 鐵槍廟", "D. 歸雲莊"],
+      "answer": "B",
+      "explanation": "焦木和尚本為法華寺方丈，眾人遂下樓直奔法華寺分個公道是非。"
+    },
+    {
+      "step_order": 12,
+      "plot_checkpoint": "法華寺前激烈混戰",
+      "type": "fill_in_the_blank",
+      "question": "抵達法華寺後，丘處機拔出佩劍，以一敵八，大戰江南七怪與______和尚。",
+      "options": [],
+      "answer": "焦木",
+      "explanation": "丘處機劍法凌厲非凡，憑藉一人之力獨戰焦木和尚與江南七怪八大高手。"
+    },
+    {
+      "step_order": 13,
+      "plot_checkpoint": "張阿生鐵布衫硬撼掌力",
+      "type": "multiple_choice",
+      "question": "法華寺激戰中，五怪張阿生為護同伴，運起何種硬氣功硬接丘處機剛猛掌力？",
+      "options": ["A. 金鐘罩", "B. 鐵布衫", "C. 蛤蟆功", "D. 龍象般若功"],
+      "answer": "B",
+      "explanation": "張阿生皮糙肉厚兼練鐵布衫橫練功夫，挺身硬接丘處機一掌，亦被震得氣血翻湧。"
+    },
+    {
+      "step_order": 14,
+      "plot_checkpoint": "柯鎮惡毒菱重創丘處機",
+      "type": "fill_in_the_blank",
+      "question": "危急關頭，柯鎮惡甩出特製的______毒暗器射中丘處機，令其內息受阻身中劇毒。",
+      "options": [],
+      "answer": "毒菱",
+      "explanation": "柯鎮惡的成名暗器毒菱含有劇毒，丘處機不慎中菱，氣息驟亂。"
+    },
+    {
+      "step_order": 15,
+      "plot_checkpoint": "兩敗俱傷瀕死僵局",
+      "type": "multiple_choice",
+      "question": "法華寺混戰的最終結果呈現怎樣的慘烈狀態？",
+      "options": ["A. 丘處機毫髮無損斬殺七怪", "B. 七怪盡數投降求饒", "C. 丘處機中毒垂死，七怪亦多數重傷動彈不得", "D. 焦木和尚力挫丘處機獲勝"],
+      "answer": "C",
+      "explanation": "雙方拼得內力耗盡，丘處機劇毒攻心倒地不起，江南七怪亦各負重傷，陷入全盤皆輸的僵局。"
+    },
+    {
+      "step_order": 16,
+      "plot_checkpoint": "段天德小人面目現形",
+      "type": "fill_in_the_blank",
+      "question": "正當雙方俱傷之際，躲藏於柴房地窖中的武官______手提鋼刀得意洋洋地走出。",
+      "options": [],
+      "answer": "段天德",
+      "explanation": "段天德見兩敗俱傷，現身嘲弄眾人，企圖趁機殺死動彈不得的高手滅口。"
+    },
+    {
+      "step_order": 17,
+      "plot_checkpoint": "焦木和尚撞鐘明志身亡",
+      "type": "multiple_choice",
+      "question": "焦木和尚得知自己受姪兒段天德欺騙且釀成大錯、無顏面對江湖朋友，作出了什麼極端舉動？",
+      "options": ["A. 拔劍自刎", "B. 怒撞大殿鐵鐘（石柱）身亡", "C. 服毒謝罪", "D. 削髮立地成佛遠走西域"],
+      "answer": "B",
+      "explanation": "焦木和尚悲憤愧疚交加，頭撞寺內大鐘石柱，腦漿迸裂當場自盡身亡。"
+    },
+    {
+      "step_order": 18,
+      "plot_checkpoint": "段天德擄李萍倉皇出逃",
+      "type": "fill_in_the_blank",
+      "question": "段天德見焦木自盡、情勢不對，連忙再次強行押解昏迷的郭嘯天遺孀______奪路逃竄。",
+      "options": [],
+      "answer": "李萍",
+      "explanation": "段天德懼怕七怪拼死反撲，慌亂劫持李萍逃離嘉興法華寺。"
+    },
+    {
+      "step_order": 19,
+      "plot_checkpoint": "丘處機獲贈解藥化解劇毒",
+      "type": "multiple_choice",
+      "question": "真相大白後，江南七怪如何對待身中致命毒菱的丘處機？",
+      "options": ["A. 任其自生自滅", "B. 朱聰與柯鎮惡交出獨門解藥為其拔毒施救", "C. 押送官府發落", "D. 廢其武功送回終南山"],
+      "answer": "B",
+      "explanation": "江南七怪深明大義、敬佩丘處機忠義剛烈，立刻取下解藥助丘處機驅逐體內毒素。"
+    },
+    {
+      "step_order": 20,
+      "plot_checkpoint": "雙方互敬義烈消弭仇怨",
+      "type": "fill_in_the_blank",
+      "question": "丘處機深感自己魯莽誤傷忠良，江南七怪亦欽佩全真道長俠義豪邁，彼此相逢一笑泯______。",
+      "options": [],
+      "answer": "恩仇",
+      "explanation": "英雄惜英雄，兩派豪傑在生死邊緣冰釋前嫌，由互為敵手轉為知交知己。"
+    },
+    {
+      "step_order": 21,
+      "plot_checkpoint": "丘處機提出十八年賭約之策",
+      "type": "multiple_choice",
+      "question": "為了解決雙方高下之爭並保全忠良血脈，丘處機當場提出了怎樣的宏大約定？",
+      "options": ["A. 十年後重登華山絕頂論劍", "B. 各自尋找郭、楊兩家後裔傳授武藝，十八年後由後人於醉仙樓比武分勝負", "C. 聯手北上刺殺大金皇帝完顏璟", "D. 共同扶植江南岳家軍後代起義"],
+      "answer": "B",
+      "explanation": "丘處機提議分頭尋找郭嘯天與楊鐵心的遺孤，丘處機尋楊家，七怪尋郭家，十八年後令兩名孩子於醉仙樓比試武功高下。"
+    },
+    {
+      "step_order": 22,
+      "plot_checkpoint": "七怪慨然應允千里諾言",
+      "type": "fill_in_the_blank",
+      "question": "江南七怪一諾千金，不避艱辛危難，當場擊掌誓言必在天涯海角尋得郭嘯天的遺腹子，將其培育成一名______豪傑。",
+      "options": [],
+      "answer": "英雄",
+      "explanation": "七怪重義輕生，慨然應下這場長達十八年、跋涉萬里的育孤之諾。"
+    },
+    {
+      "step_order": 23,
+      "plot_checkpoint": "李萍顛沛流離遠遁北方",
+      "type": "multiple_choice",
+      "question": "段天德帶著李萍一路向北逃竄，李萍在逃亡途中如何設法保全腹中骨肉？",
+      "options": ["A. 裝瘋賣傻隱忍求生", "B. 幾次跳水自盡均被救起", "C. 假意順從並暗中沿途留下標記", "D. 忍辱負重、咬牙頑強抗爭以待誕下孩兒"],
+      "answer": "D",
+      "explanation": "李萍性格剛毅堅忍，為了郭嘯天的唯一骨血，在金兵亂軍與段天德折磨下頑強支撐求生。"
+    },
+    {
+      "step_order": 24,
+      "plot_checkpoint": "段天德遇亂軍失散李萍入漠北",
+      "type": "fill_in_the_blank",
+      "question": "段天德途中遭遇北地金兵與蒙古騎兵混戰潰敗，李萍趁亂逃脫，隻身流落到了人跡罕至的______風雪荒原。",
+      "options": [],
+      "answer": "大漠",
+      "explanation": "李萍趁亂逃入荒涼無際的蒙古大漠深處，徹底遠離了南宋故土。"
+    },
+    {
+      "step_order": 25,
+      "plot_checkpoint": "雪地產子郭靖降世",
+      "type": "multiple_choice",
+      "question": "本回結尾處，李萍在大漠風雪寒夜中獨自產下嬰孩，這個啼哭降生的男嬰正是日後名動天下的誰？",
+      "options": ["A. 楊康", "B. 郭靖", "C. 拖雷", "D. 忽必烈"],
+      "answer": "B",
+      "explanation": "李萍在冰天雪地中咬斷臍帶生下郭靖，獨力在大漠中艱難撫養遺孤，正式開啟一代大俠的傳奇宿命。"
+    }
+  ]
+}

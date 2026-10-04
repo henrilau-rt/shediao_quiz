@@ -1,0 +1,231 @@
+{
+  "chapter_id": 7,
+  "chapter_name": "第七回 比武招親",
+  "questions": [
+    {
+      "step_order": 1,
+      "plot_checkpoint": "郭靖南下初入中原張家口",
+      "type": "multiple_choice",
+      "question": "郭靖告別母親與江南六怪南下，初次抵達哪一個塞外與中原接壤的重鎮？",
+      "options": ["A. 張家口", "B. 大同府", "C. 居庸關", "D. 宣化府"],
+      "answer": "A",
+      "explanation": "郭靖離開蒙古大漠南下，一人一騎首先來到張家口，初見關內繁盛風貌。"
+    },
+    {
+      "step_order": 2,
+      "plot_checkpoint": "黃蓉扮化子偷饅頭遭斥",
+      "type": "fill_in_the_blank",
+      "question": "郭靖在酒家外見到一個衣衫襤褸的少年化子正伸手抓店家的______，因而被伙計厲聲喝斥毆打。",
+      "options": [],
+      "answer": "熱饅頭",
+      "explanation": "扮作小叫化的黃蓉伸手去抓蒸籠裡的熱饅頭，被店小二搶白並推跌在雪地裡，郭靖見狀心生憐憫上前解圍。"
+    },
+    {
+      "step_order": 3,
+      "plot_checkpoint": "郭靖邀小叫化大堂共飲",
+      "type": "multiple_choice",
+      "question": "郭靖見小叫化可憐，邀其進大酒樓用餐，小叫化點了一桌精緻菜餚，此時小叫化的真實身份是誰？",
+      "options": ["A. 程瑤迦", "B. 華箏", "C. 穆念慈", "D. 黃蓉"],
+      "answer": "D",
+      "explanation": "此小叫化正是因與父親黃藥師賭氣離家出走、女扮男裝的桃花島主之女黃蓉。"
+    },
+    {
+      "step_order": 4,
+      "plot_checkpoint": "高檔筵席與品評江南細點",
+      "type": "fill_in_the_blank",
+      "question": "黃蓉點席時如數家珍，要求果品需配四色細點、乾果、鮮果，並向郭靖挑剔店中的熟飴蜜餞根本稱不上道地的______風味。",
+      "options": [],
+      "answer": "江南",
+      "explanation": "黃蓉熟諳江南美食文化，言談博雅，令生長於大漠的郭靖大開眼界並深感欽佩。"
+    },
+    {
+      "step_order": 5,
+      "plot_checkpoint": "郭靖贈送黑貂裘與黃金",
+      "type": "multiple_choice",
+      "question": "臨別前小叫化嘆天氣奇寒，郭靖毫不猶豫解下並相贈的禦寒之物是什麼？",
+      "options": ["A. 錦緞棉袍", "B. 塞外黑貂裘", "C. 銀絲羊皮襖", "D. 白狐大氅"],
+      "answer": "B",
+      "explanation": "郭靖性格純樸慷慨，將拖雷所贈極珍貴的黑貂裘脫下贈予小叫化，並奉送四錠黃金。"
+    },
+    {
+      "step_order": 6,
+      "plot_checkpoint": "慷慨割愛汗血寶馬",
+      "type": "fill_in_the_blank",
+      "question": "當小叫化試探性向郭靖索取在大漠收服的天下罕見神駒______時，郭靖雖有不捨但仍爽快答應相贈，徹底打動了黃蓉的心。",
+      "options": [],
+      "answer": "汗血寶馬",
+      "explanation": "小叫化原本隨口試探，郭靖卻坦蕩答應相送小紅馬（汗血寶馬），令黃蓉淚落感動，確認其真摯赤誠。"
+    },
+    {
+      "step_order": 7,
+      "plot_checkpoint": "北京中都繁華街景",
+      "type": "multiple_choice",
+      "question": "郭靖與黃蓉在張家口分別後，郭靖依照與師父們的約定前往金國的哪一座京城？",
+      "options": ["A. 開封汴京", "B. 中都燕京", "C. 臨安府", "D. 洛陽城"],
+      "answer": "B",
+      "explanation": "金國中都即燕京（現北京），是當時北方極為繁華的帝京重地，六怪與郭靖約定於此碰頭。"
+    },
+    {
+      "step_order": 8,
+      "plot_checkpoint": "鬧市見錦旗比武招親",
+      "type": "fill_in_the_blank",
+      "question": "郭靖在中都街頭看見人群圍攏之處插著一面錦旗，上面大書「______」四個金字。",
+      "options": [],
+      "answer": "比武招親",
+      "explanation": "穆易（楊鐵心）帶著義女穆念慈設擂比武招親，吸引了大批中都江湖人物與市民圍觀。"
+    },
+    {
+      "step_order": 9,
+      "plot_checkpoint": "比武招親父女身份",
+      "type": "multiple_choice",
+      "question": "比武招親擂台上自稱江湖賣藝的「穆易」，其真實身份是十八年前牛家村失散的何人？",
+      "options": ["A. 郭嘯天", "B. 丘處機", "C. 楊鐵心", "D. 包惜弱"],
+      "answer": "C",
+      "explanation": "穆易為「楊」字拆開變形後的化名，真實身份是楊康之生父楊鐵心。"
+    },
+    {
+      "step_order": 10,
+      "plot_checkpoint": "穆念慈容貌氣度",
+      "type": "fill_in_the_blank",
+      "question": "立於擂台上的紅衣少女容貌姣好、身姿綽約，此女正是楊鐵心收養的義女______。",
+      "options": [],
+      "answer": "穆念慈",
+      "explanation": "穆念慈一身紅衣勁裝，神態嫻靜英武，武藝受九指神丐洪七公點撥三日，身手不凡。"
+    },
+    {
+      "step_order": 11,
+      "plot_checkpoint": "無賴和尚與粗豪漢子敗下陣",
+      "type": "multiple_choice",
+      "question": "在擂台上一開始上台挑戰穆念慈，卻三兩招被其踢下台的落敗者不包括下列何者？",
+      "options": ["A. 光頭和尚", "B. 肥胖白面書生", "C. 粗魯軍漢", "D. 完顏康"],
+      "answer": "B",
+      "explanation": "起初上場挑戰的皆是些市井無賴、粗漢或酒肉和尚，紛紛被穆念慈俐落擊敗摔下擂台。"
+    },
+    {
+      "step_order": 12,
+      "plot_checkpoint": "錦衣公子完顏康登場",
+      "type": "fill_in_the_blank",
+      "question": "正當無人敢再上陣之際，一位錦衣華服、隨從簇擁的年輕貴公子躍上擂台，此人乃大金國趙王府小王爺______。",
+      "options": [],
+      "answer": "完顏康",
+      "explanation": "趙王完顏洪烈之子完顏康（楊康）錦衣玉帶，風度翩翩，登台輕薄比試。"
+    },
+    {
+      "step_order": 13,
+      "plot_checkpoint": "完顏康與穆念慈過招",
+      "type": "multiple_choice",
+      "question": "完顏康在擂台上出手時，其身法招式顯然師承正統玄門道家武功，他的嫡傳師父是誰？",
+      "options": ["A. 彭連虎", "B. 丘處機", "C. 王處一", "D. 沙通天"],
+      "answer": "B",
+      "explanation": "長春子丘處機依十八年前江南七怪之約，秘密傳授楊康全真教武功。"
+    },
+    {
+      "step_order": 14,
+      "plot_checkpoint": "完顏康戲耍奪得繡鞋",
+      "type": "fill_in_the_blank",
+      "question": "比武纏鬥中，完顏康施展輕靈身手，旋身掠過時輕佻地褪下了穆念慈足上的紅絹______，以此宣布自己勝出。",
+      "options": [],
+      "answer": "繡花鞋",
+      "explanation": "完顏康手法迅疾，趁穆念慈出腿之際脫下了她的繡花鞋拿在手中嗅玩，令穆念慈羞憤交加。"
+    },
+    {
+      "step_order": 15,
+      "plot_checkpoint": "完顏康拒認婚約始亂終棄",
+      "type": "multiple_choice",
+      "question": "穆易要求完顏康依招親規矩迎娶穆念慈，完顏康的態度是什麼？",
+      "options": ["A. 慨然應允即日成婚", "B. 推託僅是逢場作戲不願下娶", "C. 贈送千兩黃金作聘禮", "D. 立即帶父女回王府拜堂"],
+      "answer": "B",
+      "explanation": "完顏康身為金國王室小王爺，自視高貴，只當作市井玩鬧，無意真正娶江湖民女為妻。"
+    },
+    {
+      "step_order": 16,
+      "plot_checkpoint": "楊鐵心憤而出手受創",
+      "type": "fill_in_the_blank",
+      "question": "楊鐵心見對方輕侮義女，大怒之下挺槍直刺，卻因年老力衰反被完顏康打傷了______。",
+      "options": [],
+      "answer": "肩頭",
+      "explanation": "楊鐵心悲憤出手，但招式不敵正值壯年且身懷全真武藝的完顏康，當場被震倒受傷。"
+    },
+    {
+      "step_order": 17,
+      "plot_checkpoint": "郭靖激於義憤拔身相助",
+      "type": "multiple_choice",
+      "question": "郭靖在台下目睹完顏康的輕浮無禮與楊氏父女受辱，有何反應？",
+      "options": ["A. 悄悄去報官處置", "B. 謹遵師訓不敢多事", "C. 義憤填膺縱身躍上擂台阻攔", "D. 暗中發蒙古冷箭相救"],
+      "answer": "C",
+      "explanation": "郭靖秉性忠厚正直，見完顏康仗勢欺人，憤然躍上擂台主持公道，擋在完顏康身前。"
+    },
+    {
+      "step_order": 18,
+      "plot_checkpoint": "郭靖與完顏康拳掌相交",
+      "type": "fill_in_the_blank",
+      "question": "郭靖在台上與完顏康對掌交鋒，完顏康暗驚此蒙古裝束的憨厚青年掌力剛猛雄渾，所用正是江南七怪所授的______等外門剛勁功夫。",
+      "options": [],
+      "answer": "南山拳法",
+      "explanation": "郭靖兼具全真內功根基與南山拳法、鐵寶式等紮實功底，與完顏康打得難分難解。"
+    },
+    {
+      "step_order": 19,
+      "plot_checkpoint": "王府衛士鷹犬圍攻",
+      "type": "multiple_choice",
+      "question": "完顏康久戰郭靖不下，王府衛士蜂擁而上欲以多欺少，此時誰在街頭酒樓欄杆旁暗中窺看並投擲暗器相助郭靖？",
+      "options": ["A. 扮回女裝的黃蓉", "B. 柯鎮惡", "C. 韓小瑩", "D. 包惜弱"],
+      "answer": "A",
+      "explanation": "黃蓉一直尾隨郭靖至燕京，並在酒樓上以果核暗器戲耍王府爪牙，暗中迴護郭靖。"
+    },
+    {
+      "step_order": 20,
+      "plot_checkpoint": "玉陽子王處一現身解圍",
+      "type": "fill_in_the_blank",
+      "question": "混戰難解之際，全真七子之一的「鐵腳仙」______道長飄然而至，出言喝止了完顏康與眾衛士。",
+      "options": [],
+      "answer": "王處一",
+      "explanation": "全真教玉陽子王處一遊歷燕京，恰逢其會出面制止這場街頭鬥毆。"
+    },
+    {
+      "step_order": 21,
+      "plot_checkpoint": "王處一識破同門武功",
+      "type": "multiple_choice",
+      "question": "王處一一眼認出完顏康的武功招式，並當場認出完顏康是全真教哪位師兄的門徒？",
+      "options": ["A. 馬鈺", "B. 丘處機", "C. 譚處端", "D. 郝大通"],
+      "answer": "B",
+      "explanation": "王處一見完顏康招數純正凌厲，便知其為丘處機所教的弟子，立即出言約束。"
+    },
+    {
+      "step_order": 22,
+      "plot_checkpoint": "完顏康虛應長輩相邀王府",
+      "type": "fill_in_the_blank",
+      "question": "完顏康認得王處一是同門師叔，態度轉為恭敬，盛情邀請王道長與郭靖前往金國的______赴宴聚談。",
+      "options": [],
+      "answer": "趙王府",
+      "explanation": "完顏康表面溫順順從，極力邀請王處一與郭靖至其父完顏洪烈的趙王府相會。"
+    },
+    {
+      "step_order": 23,
+      "plot_checkpoint": "安置楊氏父女於客店",
+      "type": "multiple_choice",
+      "question": "王處一帶走郭靖並協助安頓受傷的楊鐵心與穆念慈父女，暫歇於何處？",
+      "options": ["A. 白雲觀", "B. 悅來客棧", "C. 高陞客棧", "D. 燕京城隍廟"],
+      "answer": "C",
+      "explanation": "王處一與郭靖先將負傷的楊鐵心及穆念慈送至高陞客棧養傷安歇。"
+    },
+    {
+      "step_order": 24,
+      "plot_checkpoint": "王處一驚詢郭靖內功淵源",
+      "type": "fill_in_the_blank",
+      "question": "在客店中，王處一搭扣郭靖脈搏，赫然察覺其體內深具全真正宗渾厚內力，經詢問才知乃掌教天罡北斗之首______道長暗中傳授兩年所致。",
+      "options": [],
+      "answer": "馬鈺",
+      "explanation": "丹陽子馬鈺曾親赴蒙古大漠崖頂密傳郭靖兩年呼吸吐納之術，王處一聞言驚喜釋懷。"
+    },
+    {
+      "step_order": 25,
+      "plot_checkpoint": "王處一欣然攜郭靖赴鴻門宴",
+      "type": "multiple_choice",
+      "question": "本回結尾處，王處一帶領郭靖準備前去應對何種險惡局面的開端？",
+      "options": ["A. 與江南七怪在中都聚首結算賭約", "B. 隻身護送穆氏父女逃返臨安", "C. 攜郭靖深入趙王府赴完顏康之邀", "D. 夜探金國天牢營救岳飛遺書"],
+      "answer": "C",
+      "explanation": "本回末尾王處一明知王府客卿網羅了各路邪派高手，仍攜郭靖整裝前往趙王府赴宴，引出第八回各顯神通的驚險波瀾。"
+    }
+  ]
+}

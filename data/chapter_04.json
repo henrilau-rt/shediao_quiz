@@ -1,0 +1,231 @@
+{
+  "chapter_id": 4,
+  "chapter_name": "第四回 黑風雙煞",
+  "questions": [
+    {
+      "step_order": 1,
+      "plot_checkpoint": "荒山崖頂勘查骷髏指孔",
+      "type": "multiple_choice",
+      "question": "柯鎮惡以手撫摸荒山頂上骷髏頭骨時，憑藉骨頂深陷的五個手指孔洞，斷定是江湖上哪門邪異功夫所致？",
+      "options": ["A. 鷹爪擒拿手", "B. 凝血神爪", "C. 九陰白骨爪", "D. 大力金剛指"],
+      "answer": "C",
+      "explanation": "柯鎮惡深知此乃黑風雙煞依據《九陰真經》下卷殘篇盲修瞎練而成的九陰白骨爪。"
+    },
+    {
+      "step_order": 2,
+      "plot_checkpoint": "黑風雙煞昔日血海深仇",
+      "type": "fill_in_the_blank",
+      "question": "柯鎮惡的兄長「飛天神魔」柯闢邪早年正是慘死於黑風雙煞手中，柯鎮惡的雙目亦是在那一戰中被______打瞎。",
+      "options": [],
+      "answer": "陳玄風",
+      "explanation": "當年柯闢邪與柯鎮惡兄弟聯手大戰黑風雙煞，柯闢邪喪命，柯鎮惡雙目被陳玄風以毒爪廢去。"
+    },
+    {
+      "step_order": 3,
+      "plot_checkpoint": "七怪定計設伏誘敵",
+      "type": "multiple_choice",
+      "question": "江南七怪自知雙煞武功遠高於己，於是在荒山上商議出怎樣的禦敵策略？",
+      "options": ["A. 連夜逃回江南求援", "B. 命郭靖做誘餌，七人分頭伏於怪石坑穴中以奇門暗器突襲", "C. 在水井中投下砒霜劇毒", "D. 依託蒙古騎兵重重圍剿"],
+      "answer": "B",
+      "explanation": "七怪因地制宜，安排幼小的郭靖坐在骷髏骨堆前引敵，其餘各人隱匿於夜色巨石與裂隙中伺機突襲。"
+    },
+    {
+      "step_order": 4,
+      "plot_checkpoint": "鐵屍梅超風長嘯現身",
+      "type": "fill_in_the_blank",
+      "question": "夜半暴風驟起，披頭散髮、身著黑袍的「鐵屍」______如幽靈般自崖下飛馳縱上荒山。",
+      "options": [],
+      "answer": "梅超風",
+      "explanation": "梅超風身法飄忽詭異，凌空躍上荒山懸崖前來練功。"
+    },
+    {
+      "step_order": 5,
+      "plot_checkpoint": "梅超風抓向幼童郭靖",
+      "type": "multiple_choice",
+      "question": "梅超風登上崖頂見骷髏堆旁坐著一個生人孩童，隨即施展何種狠毒舉動？",
+      "options": ["A. 出言詢問其家世", "B. 凌空探爪直插其頂門以作練功活靶", "C. 點其穴道帶回洞府", "D. 拋出銀針滅口"],
+      "answer": "B",
+      "explanation": "梅超風行事狠辣，見有生人即欲抓碎郭靖天靈蓋以吸食精血試爪。"
+    },
+    {
+      "step_order": 6,
+      "plot_checkpoint": "七怪暴起伏擊合圍",
+      "type": "fill_in_the_blank",
+      "question": "就在爪尖將及郭靖頭頂之際，朱聰以鐵扇架格，南希仁掄動純鋼______當頭猛砸，七怪合圍現身。",
+      "options": [],
+      "answer": "扁擔",
+      "explanation": "南希仁與朱聰同時出手搶救郭靖，其餘諸怪亦紛紛自藏匿處暴起殺出。"
+    },
+    {
+      "step_order": 7,
+      "plot_checkpoint": "梅超風銀絲長鞭大展神威",
+      "type": "multiple_choice",
+      "question": "梅超風受伏後猝然反擊，從腰間抽出了何種極具威力的奇門兵刃力敵七怪？",
+      "options": ["A. 玄鐵雙手劍", "B. 四丈餘長的毒蟒銀絲軟鞭", "C. 烏金點穴鎩", "D. 追魂奪命流星錘"],
+      "answer": "B",
+      "explanation": "梅超風精擅軟鞭功夫，長鞭揮動如狂風暴雨，發出劈啪爆響，罩住四方。"
+    },
+    {
+      "step_order": 8,
+      "plot_checkpoint": "越女劍韓小瑩合圍交鋒",
+      "type": "fill_in_the_blank",
+      "question": "七妹韓小瑩抖擻長劍，使出輕靈迅疾的______劍法，配合韓寶駒的軟鞭從側翼纏鬥梅超風。",
+      "options": [],
+      "answer": "越女",
+      "explanation": "韓小瑩劍招精妙靈巧，專攻梅超風空門，但內力不及對方強悍。"
+    },
+    {
+      "step_order": 9,
+      "plot_checkpoint": "柯鎮惡毒菱破空廢其雙眼",
+      "type": "multiple_choice",
+      "question": "梅超風躍入空中揮鞭下擊時，柯鎮惡抓住良機，以聽風辨器神技打出何種暗器重創了梅超風？",
+      "options": ["A. 金錢鏢打斷其腳筋", "B. 兩枚喂有劇毒的菱角暗器精準打瞎其雙目", "C. 透骨釘釘入其右肩", "D. 喪門釘射穿其左肋"],
+      "answer": "B",
+      "explanation": "柯鎮惡鐵杖一揮，兩枚毒菱勁力奇準，雙雙射入梅超風眼中，使其當場雙目失明受創痛呼。"
+    },
+    {
+      "step_order": 10,
+      "plot_checkpoint": "鐵屍重傷瞎眼狂性大發",
+      "type": "fill_in_the_blank",
+      "question": "梅超風雙目中菱劇痛入腦，發狂般胡亂揮動長鞭與鐵爪，在荒山上淒厲長號求援她的丈夫「銅屍」______。",
+      "options": [],
+      "answer": "陳玄風",
+      "explanation": "梅超風重創下尖嘯呼喚同修的丈夫陳玄風速來救援。"
+    },
+    {
+      "step_order": 11,
+      "plot_checkpoint": "銅屍陳玄風狂嘯登山",
+      "type": "multiple_choice",
+      "question": "陳玄風聞訊疾馳上山，其外貌體態呈現出何種令人駭異的特徵？",
+      "options": ["A. 白衣勝雪、英俊瀟灑", "B. 身材高大如巨靈神，膚色焦黃如古銅，肌肉虯結金剛不壞", "C. 骨瘦如柴如同行屍走肉", "D. 侏儒身形且手持巨斧"],
+      "answer": "B",
+      "explanation": "陳玄風橫練外家功夫至臻化境，皮如玄鐵古銅，得名「銅屍」。"
+    },
+    {
+      "step_order": 12,
+      "plot_checkpoint": "刀槍不入的橫練金鐘罩",
+      "type": "fill_in_the_blank",
+      "question": "七怪兵刃刀砍斧鑿擊在陳玄風身上，竟發出金鐵相擊之聲，顯現出其全身練就了無懈可擊的______硬功。",
+      "options": [],
+      "answer": "橫練",
+      "explanation": "陳玄風遍體如同罩上鐵甲，七怪的尋常兵器砍刺均無法穿透其肌膚。"
+    },
+    {
+      "step_order": 13,
+      "plot_checkpoint": "張阿生捨命硬接陳玄風九陰神爪",
+      "type": "multiple_choice",
+      "question": "戰鬥中陳玄風一爪狠辣抓向韓小瑩天靈蓋，千鈞一髮之際誰挺身捨命護在韓小瑩身前？",
+      "options": ["A. 全金發", "B. 朱聰", "C. 張阿生", "D. 南希仁"],
+      "answer": "C",
+      "explanation": "五怪張阿生對韓小瑩情深意重，關鍵時刻挺身硬用胸膛接下了陳玄風致命的一爪與掌力。"
+    },
+    {
+      "step_order": 14,
+      "plot_checkpoint": "張阿生胸膛震裂受致命重創",
+      "type": "fill_in_the_blank",
+      "question": "張阿生雖有鐵布衫護體，但終究不敵陳玄風深厚內勁，前胸肋骨盡斷，被抓出五個血淋淋的______。",
+      "options": [],
+      "answer": "血洞",
+      "explanation": "陳玄風指力霸道無匹，當場將張阿生胸骨震碎撕裂，命懸一線。"
+    },
+    {
+      "step_order": 15,
+      "plot_checkpoint": "陳玄風擒住郭靖欲震斃",
+      "type": "multiple_choice",
+      "question": "陳玄風重創張阿生後，隨手反剪擒住了慌亂躲在石後的郭靖，欲以此孩童洩憤，此時陳玄風的動作是什麼？",
+      "options": ["A. 拔刀割喉", "B. 將其高高舉起打算生生摔死在巨石上", "C. 勒住脖頸欲將其扼殺", "D. 拋入深谷寒潭"],
+      "answer": "C",
+      "explanation": "陳玄風左臂如鐵鉗般緊緊箍住郭靖的脖頸與身軀，郭靖呼吸斷絕、瀕臨死亡。"
+    },
+    {
+      "step_order": 16,
+      "plot_checkpoint": "郭靖慌亂中拔短劍盲刺",
+      "type": "fill_in_the_blank",
+      "question": "郭靖在窒息垂死之際，本能地拔出丘處機所贈的精鋼匕首，在空中胡亂向前捅刺，竟意外刺中了陳玄風的______穴（罩門所在）。",
+      "options": [],
+      "answer": "肚臍",
+      "explanation": "陳玄風周身刀槍不入，唯有肚臍一處是其苦練未成的致命命門罩門所在。"
+    },
+    {
+      "step_order": 17,
+      "plot_checkpoint": "命門被破銅屍破功暴斃",
+      "type": "multiple_choice",
+      "question": "匕首直沒至柄刺入肚臍後，陳玄風發生了何種驚人的生理變化？",
+      "options": ["A. 狂笑三聲破空遁走", "B. 一口真氣洩盡，全身橫練硬功徹底潰散，慘叫倒地氣絕身亡", "C. 暴怒之下拔出匕首反殺朱聰", "D. 服下護心丹化解外傷"],
+      "answer": "B",
+      "explanation": "橫練功夫罩門一旦被利刃刺穿，體內真氣洩盡如漏氣皮囊，陳玄風立時重傷瀕死。"
+    },
+    {
+      "step_order": 18,
+      "plot_checkpoint": "陳玄風臨終剝皮贈真經下卷",
+      "type": "fill_in_the_blank",
+      "question": "陳玄風臨死前將雙目失明的梅超風喚至身前，命她將自己胸腹間刺有《______》殘卷的皮膚割下帶走。",
+      "options": [],
+      "answer": "九陰真經",
+      "explanation": "黑風雙煞當年盜出真經下卷後，陳玄風恐原本被奪，將真經經文刺在自己胸口並燒毀原書。"
+    },
+    {
+      "step_order": 19,
+      "plot_checkpoint": "梅超風負屍狂奔遁入荒原",
+      "type": "multiple_choice",
+      "question": "盲目的梅超風痛失丈夫，在七怪圍殺前如何脫困逃離荒山？",
+      "options": ["A. 跪地求饒換取生路", "B. 悲嘶哀號抱著陳玄風屍身滾落懸崖下之黑林中遁走", "C. 吞下毒藥同歸於盡", "D. 劫持韓寶駒作為人質逃脫"],
+      "answer": "B",
+      "explanation": "梅超風在黑暗與血淚中抱著陳玄風屍首逃下後山，藉由亂石與風沙遮蔽消失於荒漠之中。"
+    },
+    {
+      "step_order": 20,
+      "plot_checkpoint": "張阿生垂危之際互吐心曲",
+      "type": "fill_in_the_blank",
+      "question": "身負致命傷的張阿生自知不治，臨終前握著七妹______的手，終於吐露了埋藏心底多年的愛意。",
+      "options": [],
+      "answer": "韓小瑩",
+      "explanation": "五哥張阿生性格憨厚木訥，平日未敢表白，臨終方得與痛哭的韓小瑩互許終身。"
+    },
+    {
+      "step_order": 21,
+      "plot_checkpoint": "張阿生含笑受徒拜謝世",
+      "type": "multiple_choice",
+      "question": "張阿生氣絕之前，對身旁的徒兒郭靖留下了何種最後的叮囑與交代？",
+      "options": ["A. 命他長大後必將梅超風碎屍萬段", "B. 撫其頭頂，囑其用心跟隨其他師父習武，做一個堂堂正正的頂天漢子", "C. 命他立即返回臨安不許習武", "D. 交代其去尋找鐵掌幫舊址"],
+      "answer": "B",
+      "explanation": "張阿生心性质樸寬厚，臨終唯願幼徒郭靖用功成人，含笑在六怪與郭靖懷中咽氣。"
+    },
+    {
+      "step_order": 22,
+      "plot_checkpoint": "荒山埋葬五哥誓師育徒",
+      "type": "fill_in_the_blank",
+      "question": "江南諸怪含淚在荒山頂上壘石築墓，將五弟張阿生安葬於塞外，江南七怪自此變成了江南______怪。",
+      "options": [],
+      "answer": "六",
+      "explanation": "張阿生長眠大漠荒山，餘下的六怪化悲痛為力量，矢志將全部心血傾注在郭靖身上。"
+    },
+    {
+      "step_order": 23,
+      "plot_checkpoint": "朱聰順手牽羊取獲真經皮甲",
+      "type": "multiple_choice",
+      "question": "在收斂混戰殘局時，「妙手書生」朱聰從陳玄風身上順手牽羊摸回了什麼至關重要的遺物？",
+      "options": ["A. 刻有桃花島地圖的玉珮", "B. 割自陳玄風胸口、刺滿九陰真經武學與內功口訣的下卷人皮殘片", "C. 全真教護身靈符", "D. 金國密信與調兵金牌"],
+      "answer": "B",
+      "explanation": "朱聰扒竊得來這塊人皮殘片，但因其上字跡怪異且不知原委，暫且隨手收入囊中妥善保管。"
+    },
+    {
+      "step_order": 24,
+      "plot_checkpoint": "六怪大漠安營紮寨悉心傳藝",
+      "type": "fill_in_the_blank",
+      "question": "此役過後，六怪在蒙古草場附近搭建帳篷定居，正式開始了長達十餘年教導郭靖各門拳腳、兵刃與______的苦修歲月。",
+      "options": [],
+      "answer": "器械",
+      "explanation": "六怪各自傳授看家絕學，包括柯鎮惡聽風伏魔杖、朱聰分筋錯骨手、南希仁開山掌法等。"
+    },
+    {
+      "step_order": 25,
+      "plot_checkpoint": "本回結尾十餘年光陰飛逝",
+      "type": "multiple_choice",
+      "question": "本回尾聲處，敘事鏡頭從這場慘烈的荒山血戰轉向時間推移，跨越到了郭靖多少歲的青年英姿？",
+      "options": ["A. 郭靖十歲初通武藝", "B. 寒來暑往十載逝去，郭靖成長為十八歲筋骨強健的敦厚青年", "C. 郭靖二十歲拜別成吉思汗", "D. 郭靖十二歲首次騎射出征"],
+      "answer": "B",
+      "explanation": "本回末尾光陰荏苒，十餘年轉瞬即過，昔日弱小幼童郭靖在六怪錘鍊下長成了身形健碩、忠厚勇武的十八歲青年，引出下回彎弓射鵰之壯舉。"
+    }
+  ]
+}
