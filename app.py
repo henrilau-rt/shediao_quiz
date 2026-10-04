@@ -1,17 +1,9 @@
 import streamlit as st
 import json
 import os
+import re
 
-# 答題前：
-st.caption(f"📌 進度：第 {q['step_order']} / 25 節點")
-
-# ... 顯示題目與選項 ...
-
-# 用戶點擊提交 / 答題後：
-if answered:
-    st.info(f"📖 **解鎖情節節點**：{q['plot_checkpoint']}")
-    st.write(f"💡 **解析**：{q['explanation']}")
-
+# 1. st.set_page_config 必須是檔案中第一個被執行的 Streamlit 命令
 st.set_page_config(page_title="《射鵰英雄傳》離線導讀互動練習", page_icon="📖", layout="wide")
 
 DATA_DIR = "data"
@@ -58,6 +50,33 @@ def sample_progression(questions, target_n, allowed_types):
         indices.sort()
     return [filtered[i] for i in indices]
 
+def get_safe_checkpoint(q, is_submitted):
+    """
+    防劇透處理：
+    如果尚未提交答案，檢查節點詞中是否含有該題答案字詞。
+    若有，自動替換為 '❓❓'；已提交後則完整顯示。
+    """
+    raw_checkpoint = q.get("plot_checkpoint", "")
+    if is_submitted:
+        return raw_checkpoint
+
+    # 提取選擇題答案內容（例如從 "B. 張家口" 提取出 "張家口"）
+    answer_text = ""
+    if q.get("type") == "multiple_choice" and "options" in q:
+        ans_key = q.get("answer", "").strip()
+        for opt in q["options"]:
+            if opt.startswith(ans_key + ".") or opt.startswith(ans_key + "、"):
+                answer_text = re.sub(r'^[A-D][.、\s]*', '', opt).strip()
+                break
+    elif q.get("type") == "fill_in_the_blank":
+        answer_text = q.get("answer", "").strip()
+
+    # 如果答案長度 >= 2 且出現在節點標題中，進行遮蔽
+    if len(answer_text) >= 2 and answer_text in raw_checkpoint:
+        return raw_checkpoint.replace(answer_text, "❓❓")
+    
+    return raw_checkpoint
+
 # --- 側邊欄控制 ---
 with st.sidebar:
     st.header("⚙️ 練習設定")
@@ -96,27 +115,32 @@ if st.session_state.active_quiz:
     st.subheader(f"📖 當前篇章：{st.session_state.current_title}")
     st.caption(f"由題庫中依情節先後抽樣出 **{len(st.session_state.active_quiz)} 條** 推進題目：")
 
-    with st.form("quiz_form"):
-        for i, q in enumerate(st.session_state.active_quiz, 1):
-            st.markdown(f"#### 📍 節點 {i}/{len(st.session_state.active_quiz)}：{q['plot_checkpoint']}")
-            st.write(f"**第 {i} 題：** {q['question']}")
+    # 如果尚未提交，以表單形式呈現作答區
+    if not st.session_state.submitted:
+        with st.form("quiz_form"):
+            for i, q in enumerate(st.session_state.active_quiz, 1):
+                # 套用防劇透函數：遮蓋含有答案的詞彙
+                safe_cp = get_safe_checkpoint(q, is_submitted=False)
+                st.markdown(f"#### 📍 節點 {i}/{len(st.session_state.active_quiz)}：{safe_cp}")
+                st.write(f"**第 {i} 題：** {q['question']}")
 
-            if q["type"] == "multiple_choice":
-                opts = q["options"]
-                cur = st.session_state.user_answers.get(i, None)
-                ans = st.radio(f"選擇答案（第 {i} 題）", opts, key=f"mc_{i}", index=None if cur is None else opts.index(cur))
-                if ans:
+                if q["type"] == "multiple_choice":
+                    opts = q["options"]
+                    cur = st.session_state.user_answers.get(i, None)
+                    ans = st.radio(f"選擇答案（第 {i} 題）", opts, key=f"mc_{i}", index=None if cur is None else opts.index(cur))
+                    if ans:
+                        st.session_state.user_answers[i] = ans
+                else:
+                    cur = st.session_state.user_answers.get(i, "")
+                    ans = st.text_input(f"請在空格填入答案（第 {i} 題）", value=cur, key=f"blank_{i}", placeholder="輸入詞語...")
                     st.session_state.user_answers[i] = ans
-            else:
-                cur = st.session_state.user_answers.get(i, "")
-                ans = st.text_input(f"請在空格填入答案（第 {i} 題）", value=cur, key=f"blank_{i}", placeholder="輸入詞語...")
-                st.session_state.user_answers[i] = ans
-            st.write("---")
+                st.write("---")
 
-        if st.form_submit_button("📝 提交批改", type="primary", use_container_width=True):
-            st.session_state.submitted = True
+            if st.form_submit_button("📝 提交批改", type="primary", use_container_width=True):
+                st.session_state.submitted = True
+                st.rerun()
 
-    # 批改與解讀
+    # 批改與解讀（提交後顯示）
     if st.session_state.submitted:
         score = 0
         total = len(st.session_state.active_quiz)
@@ -134,11 +158,12 @@ if st.session_state.active_quiz:
                 if user_val.strip().lower() == correct_val.lower():
                     is_correct = True
 
+            # 提交後展示完整原汁原味的 plot_checkpoint
             if is_correct:
                 score += 1
-                st.success(f"✅ 第 {i} 題【正確】({q['plot_checkpoint']})")
+                st.success(f"✅ 第 {i} 題【正確】— 📍 情節節點：{q['plot_checkpoint']}")
             else:
-                st.error(f"❌ 第 {i} 題【錯誤】({q['plot_checkpoint']})")
+                st.error(f"❌ 第 {i} 題【錯誤】— 📍 情節節點：{q['plot_checkpoint']}")
                 st.write(f"- 你的回答：`{user_val if user_val else '未作答'}`")
                 st.write(f"- 正確答案：**`{correct_val}`**")
 
