@@ -144,22 +144,44 @@ if st.session_state.active_quiz:
 
         if q["type"] == "multiple_choice":
             opts = q["options"]
-            cur_ans = st.session_state.user_answers.get(i, None)
+            widget_key = f"mc_{i}"
             
-            # 使用 radio 讓用戶點選，一選中即記錄並鎖定批改
-            selected = st.radio(
-                f"選擇答案（第 {i} 題）",
-                opts,
-                key=f"mc_{i}",
-                index=None if cur_ans is None else opts.index(cur_ans),
-                disabled=is_answered
-            )
-            
-            # 只要用戶選了選項且尚未標記為已答，即刻觸發更新
-            if selected is not None and not is_answered:
-                st.session_state.user_answers[i] = selected
-                st.session_state.answered_status[i] = True
-                st.rerun()
+            if not is_answered:
+                # 未作答：顯示互動 radio 供點選
+                selected = st.radio(
+                    f"選擇答案（第 {i} 題）",
+                    opts,
+                    key=widget_key,
+                    index=None
+                )
+                
+                # 選取後即刻記錄並更新畫面
+                if selected is not None:
+                    st.session_state.user_answers[i] = selected
+                    st.session_state.answered_status[i] = True
+                    st.rerun()
+            else:
+                # 已作答：顯示固定狀態選項列表，明確高亮用戶選擇與正確答案
+                user_val = st.session_state.user_answers.get(i, "")
+                correct_key = q["answer"].strip()
+                
+                st.markdown("**選項清單：**")
+                for opt in opts:
+                    is_user = (opt == user_val)
+                    is_correct_opt = (
+                        opt.startswith(correct_key + ".") or 
+                        opt.startswith(correct_key + "、") or 
+                        opt.startswith(correct_key + " ")
+                    )
+                    
+                    if is_user and is_correct_opt:
+                        st.markdown(f"- 🟢 **🔘 {opt}** *(你的選擇・正確)*")
+                    elif is_user and not is_correct_opt:
+                        st.markdown(f"- 🔴 **🔘 {opt}** *(你的選擇・錯誤)*")
+                    elif is_correct_opt:
+                        st.markdown(f"- 🟢 ⚪ {opt} *(正確答案)*")
+                    else:
+                        st.markdown(f"- ⚪ {opt}")
 
         else:
             # 填空題：提供獨立按鈕進行即時批改
@@ -199,9 +221,9 @@ if st.session_state.active_quiz:
                     is_correct = True
 
             if is_correct:
-                st.success(f"✅ 回答正確！")
+                st.success("✅ 回答正確！")
             else:
-                st.error(f"❌ 回答錯誤！")
+                st.error("❌ 回答錯誤！")
                 st.write(f"- 你的回答：`{user_val}`")
                 st.write(f"- 正確答案：**`{correct_val}`**")
 
